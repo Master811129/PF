@@ -21,3 +21,19 @@ selected.
 
 Create TEST.TXT in the root directory of an SD. and run the
 PetitFS.ino example.
+
+<h1>Functions</h1>
+
+FRESULT PF.begin(&FATFS);
+________________________________________________
+FRESULT PF.open(const char* filename); <b>//it must be an upper case value</b>
+________________________________________________
+FRESULT PF.readFile(uint8_t buffer[], const int size, &unsigned int available);
+_________________________________________________
+PF.writeFile();
+_________________________________________________
+PF.openDirectory();
+_________________________________________________
+PF.readDirectory();
+_________________________________________________
+
