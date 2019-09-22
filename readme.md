@@ -23,8 +23,9 @@ Create TEST.TXT in the root directory of an SD. and run the
 PetitFS.ino example.
 
 <h1>Functions</h1>
-
+```C++
 FRESULT PF.begin(&FATFS);
+```
 ________________________________________________
 FRESULT PF.open(const char* filename); <b>//it must be an upper case value</b>
 ________________________________________________
