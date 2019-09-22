@@ -1,4 +1,4 @@
-PetitFS is an Arduino Library wrapper for Petit FatFs:
+PF is an Arduino Library wrapper for Petit FatFs:
 
 http://elm-chan.org/fsw/ff/00index_p.html
 
