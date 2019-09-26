@@ -2,11 +2,6 @@ PF is an Arduino Library wrapper for Petit FatFs:
 
 http://elm-chan.org/fsw/ff/00index_p.html
 
-I started with the files in the avr folder from pfsample.zip.
-
-The pfsample.zip file is in the PetitFS/attic folder.
-
-To see my mods, look at diff_org_mod.txt in the attic folder.
 
 Edit pffArduino.h to set the SD chip select pin and select
 an SPI SCK divisor of 2 or 4.
