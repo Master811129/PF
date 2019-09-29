@@ -23,7 +23,7 @@ FRESULT PF.begin(&FATFS);
 ________________________________________________
 FRESULT PF.open(const char* filename); <b>//it must be an upper case value</b>
 ________________________________________________
-FRESULT PF.readFile(uint8_t buffer[], const int size, &unsigned int available);
+FRESULT PF.readFile(uint8_t buffer[], const int size, &unsigned int wrote);
 _________________________________________________
 PF.writeFile();
 _________________________________________________
