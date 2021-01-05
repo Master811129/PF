@@ -9,9 +9,9 @@ an SPI SCK divisor of 2 or 4.
 Edit pffconfig.h to select options.  The default is to select
 most options.  You can save flash by limiting options.
 
-The PetitFS.ino example uses 5,806 bytes with the default options.
+The ReadFile.ino example uses 5,806 bytes with the default options.
 
-PetitFS.ino uses 4,940 bytes if only _USE_READ and _FS_FAT32 are
+ReadFile.ino uses 4,940 bytes if only _USE_READ and _FS_FAT32 are
 selected.
 
 Create TEST.TXT in the root directory of an SD. and run the
