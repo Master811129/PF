@@ -15,7 +15,7 @@ PetitFS.ino uses 4,940 bytes if only _USE_READ and _FS_FAT32 are
 selected.
 
 Create TEST.TXT in the root directory of an SD. and run the
-PetitFS.ino example.
+ReadFile.ino example.
 
 <h1>Functions</h1>
 
